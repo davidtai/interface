@@ -1,19 +1,11 @@
 {
-  "name": "ASSAM TEA",
+  "name": "ASSAM-TEA",
   "keywords": [
-    "assam",
-    "tea",
+    "assam-tea",
     "defi"
   ],
-  "timestamp": "2021-05-27T20:37:00.000+00:00",
+  "timestamp": "2024-1-19T20:37:00.000+00:00",
   "tokens": [
-    {
-      "chainId": 93384,
-      "address": "0xf990e015F8DAEf9F7d51B6d57c6E105D9bd5f3be",
-      "name": "butt",
-      "symbol": "butt",
-      "decimals": 18
-    },
   	{
       "chainId": 93384,
       "address": "0x1B54e5BBb545245f4c468929D64dAbb479aE055e",
@@ -32,14 +24,14 @@
       "chainId": 93384,
       "address": "0x15B7e0AF94F36aB8dBFd8ED6fd56edc0a3a73683",
       "name": "winner tea",
-      "symbol": "win-tea",
+      "symbol": "win tea",
       "decimals": 18
     },
   	{
       "chainId": 93384,
       "address": "0x81fB2b0D74F4B0148Ea08d0Eb65b99f187A393E3",
       "name": "TRUMP BIG TOKEN",
-      "symbol": "TRUMP-BT",
+      "symbol": "TRUMP BT",
       "decimals": 18
     },
   	{
@@ -86,8 +78,8 @@
     }
   ],
   "version": {
-    "major": 2,
-    "minor": 0,
-    "patch": 0
+    "major": 3,
+    "minor": 1,
+    "patch": 1
   }
 }
