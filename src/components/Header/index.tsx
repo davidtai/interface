@@ -5,10 +5,10 @@ import { Text } from 'rebass'
 
 import styled from 'styled-components'
 
-import Logo from '../../assets/svg/logo.svg'
-import LogoDark from '../../assets/svg/logo_white.svg'
-import Wordmark from '../../assets/svg/wordmark.svg'
-import WordmarkDark from '../../assets/svg/wordmark_white.svg'
+import Logo from '../../assets/svg/tealogo.svg'
+import LogoDark from '../../assets/svg/tealogo.svg'
+//import Wordmark from '../../assets/svg/tealogo.svg'
+//import WordmarkDark from '../../assets/svg/tealogo.svg'
 import { useActiveWeb3React } from '../../hooks'
 import { useDarkModeManager } from '../../state/user/hooks'
 import { useETHBalances } from '../../state/wallet/hooks'
@@ -17,9 +17,8 @@ import { YellowCard } from '../Card'
 import Settings from '../Settings'
 import Menu from '../Menu'
 
-import Row, { RowBetween } from '../Row'
+import { RowBetween } from '../Row'
 import Web3Status from '../Web3Status'
-import VersionSwitch from './VersionSwitch'
 
 const HeaderFrame = styled.div`
   display: flex;
@@ -61,13 +60,13 @@ const Title = styled.a`
   }
 `
 
-const TitleText = styled(Row)`
+/*const TitleText = styled(Row)`
   width: fit-content;
   white-space: nowrap;
   ${({ theme }) => theme.mediaWidth.upToExtraSmall`
     display: none;
   `};
-`
+`*/
 
 const AccountElement = styled.div<{ active: boolean }>`
   display: flex;
@@ -131,7 +130,8 @@ const NETWORK_LABELS: { [chainId in ChainId]: string | null } = {
   [ChainId.RINKEBY]: 'Rinkeby',
   [ChainId.ROPSTEN]: 'Ropsten',
   [ChainId.GÖRLI]: 'Görli',
-  [ChainId.KOVAN]: 'Kovan'
+  [ChainId.KOVAN]: 'Kovan',
+  [ChainId.ASSAM_TEA]: 'ASSAM TEA',
 }
 
 export default function Header() {
@@ -140,6 +140,9 @@ export default function Header() {
   const userEthBalance = useETHBalances(account ? [account] : [])?.[account ?? '']
   const [isDark] = useDarkModeManager()
 
+  /*<TitleText>
+  <img style={{ marginLeft: '4px', marginTop: '4px' }} src={isDark ? WordmarkDark : Wordmark} alt="logo" />
+  </TitleText>*/
   return (
     <HeaderFrame>
       <RowBetween style={{ alignItems: 'flex-start' }} padding="1rem 1rem 0 1rem">
@@ -148,9 +151,7 @@ export default function Header() {
             <UniIcon>
               <img src={isDark ? LogoDark : Logo} alt="logo" />
             </UniIcon>
-            <TitleText>
-              <img style={{ marginLeft: '4px', marginTop: '4px' }} src={isDark ? WordmarkDark : Wordmark} alt="logo" />
-            </TitleText>
+            
           </Title>
         </HeaderElement>
         <HeaderControls>
@@ -161,14 +162,13 @@ export default function Header() {
             <AccountElement active={!!account} style={{ pointerEvents: 'auto' }}>
               {account && userEthBalance ? (
                 <BalanceText style={{ flexShrink: 0 }} pl="0.75rem" pr="0.5rem" fontWeight={500}>
-                  {userEthBalance?.toSignificant(4)} ETH
+                  {userEthBalance?.toSignificant(4)} TEA
                 </BalanceText>
               ) : null}
               <Web3Status />
             </AccountElement>
           </HeaderElement>
           <HeaderElementWrap>
-            <VersionSwitch />
             <Settings />
             <Menu />
           </HeaderElementWrap>
