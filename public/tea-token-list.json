@@ -1,0 +1,85 @@
+{
+  "name": "ASSAM-TEA",
+  "keywords": [
+    "assam-tea",
+    "defi"
+  ],
+  "timestamp": "2021-05-27T20:37:00.000+00:00",
+  "tokens": [
+  	{
+      "chainId": 93384,
+      "address": "0x1B54e5BBb545245f4c468929D64dAbb479aE055e",
+      "name": "CLW",
+      "symbol": "CLW",
+      "decimals": 18
+    },
+  	{
+      "chainId": 93384,
+      "address": "0xcC431866D471096a2cD4A24790128202B8Ee0E86",
+      "name": "ANIME",
+      "symbol": "ANM",
+      "decimals": 18
+    },
+  	{
+      "chainId": 93384,
+      "address": "0x15B7e0AF94F36aB8dBFd8ED6fd56edc0a3a73683",
+      "name": "winner tea",
+      "symbol": "win tea",
+      "decimals": 18
+    },
+  	{
+      "chainId": 93384,
+      "address": "0x81fB2b0D74F4B0148Ea08d0Eb65b99f187A393E3",
+      "name": "TRUMP BIG TOKEN",
+      "symbol": "TRUMP BT",
+      "decimals": 18
+    },
+  	{
+      "chainId": 93384,
+      "address": "0x2F3754Cb1F05fE6701C76603B1c69830347F5B3A",
+      "name": "YERIM",
+      "symbol": "YRM",
+      "decimals": 18
+    },
+  	{
+      "chainId": 93384,
+      "address": "0x7987954bb6aC6b79819b08bFC268917AD38E12c6",
+      "name": "Teaalien",
+      "symbol": "TAE",
+      "decimals": 18
+    },
+  	{
+      "chainId": 93384,
+      "address": "0x03C5273a766efC2DFb5205342B742d5E5f02d755",
+      "name": "Manchester United",
+      "symbol": "MU",
+      "decimals": 18
+    },
+  	{
+      "chainId": 93384,
+      "address": "0x90f7C3F1043D595B88849Ca45b81763636Ac9dB9",
+      "name": "RS",
+      "symbol": "RS",
+      "decimals": 18
+    },
+  	{
+      "chainId": 93384,
+      "address": "0x42c6698Ae5537E7a7760d313244d75f09D45D7A2",
+      "name": "Lemon Tea",
+      "symbol": "LTT",
+      "decimals": 18
+    },
+  	{
+      "chainId": 93384,
+      "address": "0x7f9FA637886eAb2C67c05d3087C6de92343af807",
+      "name": "tea ea",
+      "symbol": "ea",
+      "decimals": 18
+    }
+  ],
+  "version": {
+    "major": 2,
+    "minor": 0,
+    "patch": 0
+  }
+}
