@@ -1,5 +1,5 @@
 // the Uniswap Default token list lives here
-export const DEFAULT_TOKEN_LIST_URL = 'https://teaswap.xyz/tea-token-list.json'
+export const DEFAULT_TOKEN_LIST_URL = 'https://www.teaswap.xyz/tea-token-list.json'
 //'tokens.uniswap.eth'
 
 export const DEFAULT_LIST_OF_LISTS: string[] = [
