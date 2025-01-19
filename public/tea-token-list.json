@@ -7,6 +7,13 @@
   ],
   "timestamp": "2021-05-27T20:37:00.000+00:00",
   "tokens": [
+    {
+      "chainId": 93384,
+      "address": "0xf990e015F8DAEf9F7d51B6d57c6E105D9bd5f3be",
+      "name": "butt",
+      "symbol": "butt",
+      "decimals": 18
+    },
   	{
       "chainId": 93384,
       "address": "0x1B54e5BBb545245f4c468929D64dAbb479aE055e",
