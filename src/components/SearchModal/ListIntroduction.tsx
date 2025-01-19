@@ -22,11 +22,11 @@ export default function ListIntroduction({ onSelectList }: { onSelectList: () =>
             src={isDark ? listDark : listLight}
             alt="token-list-preview"
           />
-          <img
+          { /* <img
             style={{ width: '100%', borderRadius: '12px' }}
             src="https://cloudflare-ipfs.com/ipfs/QmRf1rAJcZjV3pwKTHfPdJh4RxR8yvRHkdLjZCsmp7T6hA"
             alt="token-list-preview"
-          />
+          /> */ }
           <Text style={{ marginBottom: '8px', textAlign: 'center' }}>
             Uniswap now supports token lists. You can add your own custom lists via IPFS, HTTPS and ENS.{' '}
           </Text>
