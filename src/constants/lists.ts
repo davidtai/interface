@@ -1,5 +1,5 @@
 // the Uniswap Default token list lives here
-export const DEFAULT_TOKEN_LIST_URL = 'https://raw.githubusercontent.com/davidtai/tea-swap-token-list/refs/heads/main/tea-token-list.json'
+export const DEFAULT_TOKEN_LIST_URL = 'https://raw.githubusercontent.com/davidtai/tea-swap-token-list/refs/heads/main/sepolia-tea-token-list.json'
 //'tokens.uniswap.eth'
 
 

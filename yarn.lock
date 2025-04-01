@@ -2574,9 +2574,9 @@
   resolved "https://registry.yarnpkg.com/@uniswap/lib/-/lib-1.1.1.tgz#0afd29601846c16e5d082866cbb24a9e0758e6bc"
   integrity sha512-2yK7sLpKIT91TiS5sewHtOa7YuM8IuBXVl4GZv2jZFys4D2sY7K5vZh6MqD25TPA95Od+0YzCVq6cTF2IKrOmg==
 
-"@uniswap/sdk@davidtai/v2-sdk.git#assam-tea":
+"@uniswap/sdk@davidtai/v2-sdk.git#sepolia-tea":
   version "3.0.2"
-  resolved "https://codeload.github.com/davidtai/v2-sdk/tar.gz/93109164ee65efb1af52aa90c53c0dc3ecdbc8b8"
+  resolved "https://codeload.github.com/davidtai/v2-sdk/tar.gz/989516453db96b0ca7aee2b5042beca5c31134b1"
   dependencies:
     "@uniswap/v2-core" "^1.0.0"
     big.js "^5.2.2"

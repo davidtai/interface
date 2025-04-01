@@ -132,6 +132,7 @@ const NETWORK_LABELS: { [chainId in ChainId]: string | null } = {
   [ChainId.GÖRLI]: 'Görli',
   [ChainId.KOVAN]: 'Kovan',
   [ChainId.ASSAM_TEA]: 'ASSAM TEA',
+  [ChainId.SEPOLIA_TEA]: 'Sepolia TEA',
 }
 
 export default function Header() {
