@@ -33,7 +33,7 @@ export const YellowCard = styled(Card)`
 `
 
 export const PinkCard = styled(Card)`
-  background-color: rgba(255, 0, 122, 0.03);
+  background-color: rgbargb(177, 143, 106, 0.03);
   color: ${({ theme }) => theme.primary1};
   font-weight: 500;
 `
